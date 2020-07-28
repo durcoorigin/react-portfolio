@@ -15,8 +15,8 @@ function Nav() {
                     </a>
                 </li>
                 <li>
-                    <a href="#projects">
-                        Projects
+                    <a href="#porfolio">
+                        Portfolio
                     </a>
                 </li>
                 <li>
