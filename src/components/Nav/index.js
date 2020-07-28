@@ -5,7 +5,7 @@ function Nav() {
     return(
     <header>
         <h2>
-            Short Designs
+            Chris Short
         </h2>
         <nav>
             <ul className="flex-row">
@@ -17,6 +17,11 @@ function Nav() {
                 <li>
                     <a href="#projects">
                         Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        Contact Info
                     </a>
                 </li>
                 <li>
