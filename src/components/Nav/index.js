@@ -3,9 +3,11 @@ import React from 'react';
 function Nav() {
 
     return(
-    <header>
+    <header className="flex-row px-1">
         <h2>
-            Chris Short
+            <a data-testid="link" href="/">
+                Chris Short
+            </a>
         </h2>
         <nav>
             <ul className="flex-row">

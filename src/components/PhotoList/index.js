@@ -1,36 +1,37 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-// import photo from '../../assets/portfolio-img/500.png';
+import photo1 from '../../assets/portfolio-img/nutrifinder.jpg';
+import photo2 from '../../assets/portfolio-img/horiseon.jpg';
+import photo3 from '../../assets/portfolio-img/whiskey-inventory.jpg';
+import photo4 from '../../assets/portfolio-img/run-buddy.jpg';
+
 
 function PhotoList() {
-    const [photos] = useState([
-        {
-            name: "placeholder 1",
-            repo: "repo link",
-            deployed: "deployed link"
-        },
-        {
-            name: "placeholder 2",
-            repo: "repo link",
-            deployed: "deployed link"
-        }
-    ])
 
     return (
         <div>
-            <div className="flex-row">
-                {photos.map((image, i) => (
-                <img 
-                    src={require(`../../assets/profile-pic/${photos}/${i}.png`)} 
-                    alt={image.name} 
-                    className="img-thumbnail mx-1"
-                    key={image.name}
-                    />
-
-                ))}
-            </div>
+            <img
+              src={photo1}
+              className="img-thumbnail mx-1"
+              alt="placeholder"
+            />
+            <img
+              src={photo2}
+              className="img-thumbnail mx-1"
+              alt="placeholder"
+            />
+            <img
+              src={photo3}
+              className="img-thumbnail mx-1"
+              alt="placeholder"
+            />
+            <img
+              src={photo4}
+              className="img-thumbnail mx-1"
+              alt="placeholder"
+            />
         </div>
-    )
+      )
 }
 
 export default PhotoList;
