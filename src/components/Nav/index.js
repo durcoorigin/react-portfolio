@@ -5,6 +5,8 @@ import React from 'react';
 function Nav(props) {
 
     const {
+        ResumeSelected,
+        setResumeSelected,        
         ContactSelected,
         setContactSelected,
         PortfolioSelected,
@@ -26,22 +28,54 @@ function Nav(props) {
             <ul className="flex-row">
                 <li className={`mx-1 ${AboutSelected && `navActive`}`}>
                     <a href="#about">
-                    <span onClick={() => {setAboutSelected(true); setContactSelected(false); setPortfolioSelected(false)}} >About Me</span>
+                        <span onClick={() => {
+                            setAboutSelected(true); 
+                            setContactSelected(false); 
+                            setPortfolioSelected(false);
+                            setResumeSelected(false)
+                            }} 
+                        >
+                            About Me
+                        </span>
                     </a>
                 </li>
                 <li className={`mx-1 ${PortfolioSelected && `navActive`}`}>
                     <a href="#porfolio">
-                    <span onClick={() => {setAboutSelected(false); setContactSelected(false); setPortfolioSelected(true)}}>Porfolio</span>
+                        <span onClick={() => {
+                            setAboutSelected(false); 
+                            setContactSelected(false); 
+                            setPortfolioSelected(true);
+                            setResumeSelected(false)
+                            }}
+                        >
+                            Porfolio
+                        </span>
                     </a>
                 </li>
                 <li className={`mx-2 ${ContactSelected && 'navActive'}`}>
                     <a href="#contact">
-                    <span onClick={() => {setAboutSelected(false); setContactSelected(true); setPortfolioSelected(false)}}>Contact</span>
+                        <span onClick={() => {
+                            setAboutSelected(false); 
+                            setContactSelected(true); 
+                            setPortfolioSelected(false);
+                            setResumeSelected(false)
+                            }}
+                        >
+                            Contact
+                        </span>
                     </a>
                 </li>
-                <li>
+                <li className={`mx-2 ${ResumeSelected && 'navActive'}`}>
                     <a href="#resume">
-                        Resume
+                        <span onClick={() => {
+                            setAboutSelected(false); 
+                            setContactSelected(false); 
+                            setPortfolioSelected(false);
+                            setResumeSelected(true)
+                            }}
+                        >
+                            Resume
+                        </span>
                     </a>
                 </li>
 
