@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [ResumeSelected, setResumeSelected] = useState(false);
@@ -59,6 +60,7 @@ function App() {
 
         </div>
       </main>
+      <Footer></Footer>
     </div>
 
   );

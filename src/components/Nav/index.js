@@ -48,7 +48,7 @@ function Nav(props) {
                             setResumeSelected(false)
                             }}
                         >
-                            Porfolio
+                            Portfolio
                         </span>
                     </a>
                 </li>
