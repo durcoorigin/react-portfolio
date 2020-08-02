@@ -1,12 +1,12 @@
 import React from 'react';
 
-import PhotoList from '../PhotoList';
+import Project from '../Project';
 
 function Portfolio() {
     return(
         <section className="my-5">
             <h1  id="portfolio">Portfolio</h1>
-            <PhotoList  />
+            <Project  />
         </section>
     )
 }
