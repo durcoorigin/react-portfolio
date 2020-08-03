@@ -40,7 +40,7 @@ function Nav(props) {
                     </a>
                 </li>
                 <li className={`mx-1 ${PortfolioSelected && `navActive`}`}>
-                    <a href="#porfolio">
+                    <a href="#portfolio">
                         <span onClick={() => {
                             setAboutSelected(false); 
                             setContactSelected(false); 
