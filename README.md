@@ -39,7 +39,7 @@
   
   ## Usage Instructions
   ---
-  go to https://durcoorigin/github.io/react-portfolio
+  go to https://durcoorigin.github.io/react-portfolio/
   
   Navigate through the application to view previous projects and contact information.  
   
