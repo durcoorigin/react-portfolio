@@ -6,7 +6,7 @@ import photo3 from '../../assets/portfolio-img/photo-port.jpg';
 import photo4 from '../../assets/portfolio-img/weather-dashboard.jpg';
 import photo5 from '../../assets/portfolio-img/run-buddy.jpg';
 import photo6 from '../../assets/portfolio-img/zoo-keeper.jpg';
-import photo7 from'../../assets/portfolio-img/honey-do-list.jpg';
+import photo7 from '../../assets/portfolio-img/honey-do-list.jpg';
 
 
 
