@@ -6,6 +6,7 @@ import photo3 from '../../assets/portfolio-img/photo-port.jpg';
 import photo4 from '../../assets/portfolio-img/weather-dashboard.jpg';
 import photo5 from '../../assets/portfolio-img/run-buddy.jpg';
 import photo6 from '../../assets/portfolio-img/zoo-keeper.jpg';
+import photo7 from'../../assets/portfolio-img/honey-do-list';
 
 
 
@@ -13,6 +14,13 @@ function Project() {
 
     return (
         <div>
+          <a href="https://honey-do-list.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <img
+              src={photo7}
+              className="img-thumbnail mx-1"
+              alt="placeholder"
+            />
+          </a>
           <a href="https://whiskey-inventory.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img
               src={photo1}
