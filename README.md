@@ -1,6 +1,6 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
- # Short Module 19
+ # React Portfolio
  
   
   
@@ -39,7 +39,7 @@
   
   ## Usage Instructions
   ---
-  go to https://durcoorigin/github.io/react-portfolio
+  go to https://durcoorigin.github.io/react-portfolio/
   
   Navigate through the application to view previous projects and contact information.  
   
